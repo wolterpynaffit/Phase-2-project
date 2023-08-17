@@ -1,0 +1,56 @@
+/* Header.css */
+.movie-container {
+  padding: 4rem;
+  }
+  
+  .trending-container {
+    margin-top: 20px; /* Add margin at the top of the trending section */
+  }
+  
+  .trending-card-container {
+    display: flex; /* Display cards in a row */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 10px; /* Add spacing between cards */
+
+  }
+
+  .card {
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+
+  .card:hover {
+    transform: scale(1.1);
+  }
+
+  .title-spacing {
+    margin-top: 4rem;
+  }
+
+  .text-light{
+    color: white;
+  }
+  /* Add styles for TrendingCard component here */
+
+  .like-button{
+    background-color: rgb(25, 25, 25);
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  .add-button{
+    background-color: rgb(25, 25, 25);
+    padding-right : 2rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  .play-button{
+    background-color: rgb(25, 25, 25);
+    padding-right : 2rem;
+    padding-top: 1rem;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+  }

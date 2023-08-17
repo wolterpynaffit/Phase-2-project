@@ -1,0 +1,132 @@
+
+
+.bg-dark {
+   background-color: rgb(25, 25, 25);
+}
+
+
+
+nav {
+    margin: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    display: inline-block;
+    margin-left: 2rem;  
+}
+
+
+.button-play{
+    background-color: white;
+    border: none;
+    width: 4.5rem;
+    width: 10rem;
+    height: 3.5rem;
+    border-radius: 6px;
+}
+
+.button-more{
+    background-color: rgba(72, 69, 69, 0.463);
+    color: white;
+    border: none;
+    width: 10rem;
+    height: 3.5rem;
+    border-radius: 6px;
+    margin-left: 1rem;
+} 
+
+ .banner-container{
+    position: relative;
+    overflow: hidden;
+ } 
+
+
+.banner-container::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20rem; /* Adjust the height of the fading effect */
+    background: linear-gradient(to bottom, transparent, rgb(25, 25, 25));
+
+
+  }
+
+  
+  .banner-details{
+       position: absolute;
+       top: 50%;
+       left: 36%;
+       transform: translate(-50%, -50%);
+       text-align: left;
+       color: white
+
+  }
+
+  .shuffle-button{
+    border: 1px solid white;
+    z-index: 1;
+    position: absolute;
+
+  }
+/* Header.css */
+
+.navBar {
+    display: flex; /* Display children in a row */
+    /* Distribute space evenly between children */
+    align-items: center; /* Align children vertically centered */
+    padding: 1rem 2rem; /* Add padding for spacing */
+    background-color:rgb(25, 25, 25);
+  }
+  
+  .navBar a {
+    margin-right: 1rem; /* Add spacing between navigation links */
+    text-decoration: none;
+    color: white;
+  }
+  
+  .search-container {
+    display: flex; /* Display search container and input in a row */
+    align-items: center; /* Align items vertically centered */
+    border: 1px solid white; /* Add border for styling */
+    padding: 0.2rem 0.5rem; /* Add padding for spacing */
+    border-radius: 4px; /* Add border radius for styling */
+  }
+  
+  .search-input {
+    border: none;
+    background: transparent;
+    color: white;
+    width: 100%; /* Expand input to fill the available space */
+    margin-left: 0.5rem; /* Add spacing between search container and input */
+    padding: 0.2rem; /* Add padding for input field */
+  }
+  
+  /* ... Rest of your existing styles ... */
+
+  .audio-container {
+    display: flex; 
+    align-items: center; /* Align items vertically centered */
+    border: 1px solid white; /* Add border for styling */
+    padding: 0.5rem 0.5rem; /* Add padding for spacing */
+    border-radius:  100px; /* Add border radius for styling */
+    background-color: rgb(25, 25, 25);
+    margin-left: 2rem;
+  
+    
+  }
+
+  .icon{
+    background-color: rgb(25, 25, 25);
+    border: none;
+    color: white;
+
+  }
+
+ 
+  
+  
