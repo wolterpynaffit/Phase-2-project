@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom';
 import './App.css'
 import Layout from './Layout';
 import { useState, useEffect } from 'react';
-
+import Home from './Home';
 
 function App() {
 
@@ -40,6 +40,7 @@ const filteredMovies= display.filter((movie) => movie.title.toLowerCase().includ
       <Header handleSearch={handleSearch} search={search}  handleAudio={handleAudio}/>
       <Layout filteredMovies={filteredMovies} display={display} setDisplay={setDisplay}/>
       <Outlet/>
+
 
     </div>
 

@@ -4,8 +4,8 @@ import './App.css';
 
 function Header({ handleSearch, search, handleAudio }) {
   return (
-    <div>
-      <nav className={'navBar'}>
+    <div className='navBar'>
+      <nav>
         <img
           src={process.env.PUBLIC_URL + '/assets/Netflix_Logo.png'}
           alt="Netflix Logo"
@@ -14,6 +14,9 @@ function Header({ handleSearch, search, handleAudio }) {
         <Link to="/home">Home</Link>
         <Link to="/list">My List</Link>
         <Link to="/popular">Popular</Link>
+        </nav>
+
+
         <div className={'search-container'}>
           <input
             onChange={(e) => handleSearch(e.target.value)}
@@ -23,12 +26,14 @@ function Header({ handleSearch, search, handleAudio }) {
             className={'search-input'}
           />
         </div>
-        <div className={'audio-container'}>
-          <button onClick={handleAudio} className={'icon'}>
-            <i class="fa-solid fa-music icon"></i>
+        <div >
+          <button onClick={handleAudio} className={'icon  audio-container'} >
+            <i class="fa-solid fa-music icon"  style={{fontSize: '2.5rem', color: 'red'}}></i>
           </button>
         </div>
-      </nav>
+
+
+  
     </div>
   );
 }

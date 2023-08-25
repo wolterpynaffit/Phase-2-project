@@ -58,7 +58,7 @@ function Display ({display, setDisplay, filteredMovies}){
 
   return (
     <div className ={'movie-container'}>
-    <div className = "trending-container">
+    <div className ={ "trending-container"}>
          
         <h2 className={'title-spacing text-light'}> Trending </h2>
         <div className = "trending-card-container">
