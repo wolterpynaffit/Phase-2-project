@@ -58,3 +58,4 @@ Contributing:
 Contributions to this project are welcome! If you have suggestions, bug reports, or want to contribute new features, feel free to open issues and pull requests.
 
 Thank you for using the Netflix Clone project. We hope you enjoy the streaming experience! 🍿🎬📺
+# Phase-2-project
